@@ -39,7 +39,7 @@ To run the EarthWise web application locally, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/earthwise.git
+git clone https://github.com/meenakshiiyer2531/earthwise.git
 cd earthwise
 ```
 Install dependencies:
