@@ -1,66 +1,104 @@
 # EarthWise: AI-Powered Learning for SDGs
-EarthWise is a full-stack web application designed to educate users about the United Nations' 17 Sustainable Development Goals (SDGs) through AI-driven interactive lessons. The app features multilingual support with text translation and Text-to-Speech (TTS) services, making it accessible to over 1,000 users worldwide. The key highlight of EarthWise is its AI Tutor, which provides an engaging learning experience by teaching SDGs through interactive lessons, leveraging TTS and Lip Sync technology.
+
+EarthWise is a sophisticated full-stack web application designed to educate users about the United Nations' 17 Sustainable Development Goals (SDGs) through AI-driven, interactive learning experiences. With multilingual support, text translation, and advanced Text-to-Speech (TTS) services, the platform ensures accessibility and inclusivity for a global audience of over 1,000 users.
+
+At the heart of EarthWise lies its AI Tutor, an intelligent and engaging virtual assistant powered by cutting-edge AI technologies. This tutor delivers interactive lessons using real-time TTS and Lip Sync technology to simulate life-like interactions, making the learning journey captivating and highly impactful.
 
 ## Features
-1. AI-Powered Tutor: An intelligent AI tutor designed to guide users through interactive lessons on the 17 SDGs.
-2. Text Translation: Automatic translation of content into multiple languages to cater to a global audience.
-3. Text-to-Speech (TTS): Audio narration of lessons to make learning more accessible.
-4. Lip Sync Technology: Enhanced interaction with a virtual tutor through synchronized lip movements during TTS.
-5. Multilingual Support: Supports over 1,000 users in different languages for a global impact.
+
+**1. AI-Powered Tutor**
+
+Leverages OpenAI's GPT-3 to deliver personalized, engaging lessons on the 17 SDGs, responding intelligently to user queries and simulating dynamic interactions.
+
+Incorporates ElevenLabs API for natural and human-like Text-to-Speech output, enhancing auditory engagement.
+
+Rhubarb Lip Sync technology is integrated to synchronize lip movements with spoken words, providing an immersive and visually interactive experience with the virtual tutor.
+
+**2. Text Translation**
+
+Uses the Google Translate API to translate content into multiple languages in real time, ensuring accessibility to a global user base.
+
+Supports localization to cater to cultural and linguistic preferences, expanding the platform's reach and inclusivity.
+
+**3. Text-to-Speech (TTS)**
+
+Delivers audio narration of lessons using advanced Text-to-Speech capabilities from Web Speech API and ElevenLabs API.
+
+TTS ensures users with visual impairments or learning differences can fully participate in lessons, breaking accessibility barriers.
+
+**4. Lip Sync Technology**
+
+Powered by Rhubarb Lip Sync and FFmpeg, ensuring seamless synchronization of the virtual tutor's lip movements with audio output.
+
+The result is a realistic, life-like avatar interaction that enhances the learning experience, particularly for visual learners.
+
+**5. Multilingual Support**
+
+Supports a diverse audience by providing lessons in multiple languages, ensuring inclusivity and equitable learning opportunities for all.
+
+Can cater to more than 1,000 active users globally, offering a robust infrastructure for real-time translation and lesson delivery.
+
+## Technologies Used
+
+### Frontend
+
+- Next.js: Provides server-side rendering and fast loading times for a seamless user experience.
+
+- React.js: Forms the foundation for building a dynamic and interactive user interface.
+
+- Tailwind CSS: Enables rapid and consistent styling with a modern, responsive design.
+
+- Three.js & React-Three-Fiber: Adds immersive 3D visualizations for lessons, making complex concepts easier to understand and visually appealing.
+
+- Leva: Used for managing and tweaking UI parameters dynamically, particularly during the integration of 3D assets.
+
+### Backend
+
+- Node.js & Express.js: Handle API management, server-side logic, and user authentication seamlessly.
+
+- OpenAI API: Powers the AI Tutor, enabling intelligent dialogues and lesson generation.
+
+- ElevenLabs API: Provides cutting-edge TTS services for lifelike voice outputs.
+
+- Rhubarb Lip Sync & FFmpeg: Facilitate the synchronization of audio and lip movements, making the tutor's interactions realistic.
+
+### Database
+
+**MongoDB:**
+
+Stores flexible, schema-less data such as student profiles, lesson progress, and user interactions.
+
+Efficiently handles a large volume of data, ensuring scalability as the platform grows.
+
+### Authentication
+
+**Firebase Authentication:**
+
+Ensures secure login and user tracking with a simple, intuitive interface.
+
+Facilitates easy management of student-teacher accounts, enhancing user experience while maintaining data protection.
+
+## AI Tutor Interaction
+
+The AI Tutor is designed to teach lessons interactively, with support for both voice and text inputs.
+
+Lessons are complemented with real-time TTS outputs and lip-synced animations to simulate a human-like teaching experience.
+
+Users can ask the tutor questions at any time, with the AI responding intelligently using GPT-3’s contextual understanding.
+
+
+## Why EarthWise is Not Open Source
+
+EarthWise is a proprietary platform designed to maintain the integrity, security, and quality of its educational content and AI-driven features. By keeping the code in a private repository, we ensure:
+
+User Data Security: Sensitive information such as user profiles and learning progress remains protected.
+
+Feature Integrity: Cutting-edge technologies like AI, TTS, and Lip Sync are utilized responsibly to prevent misuse.
+
+Scalability: Controlled development allows us to deliver the best experience to our users without compromising on quality.
 
 ## Video Demonstration
 Check out a video demonstration of EarthWise in action:
 [![Video Demo](https://github.com/user-attachments/assets/f1d3231a-a5bb-405e-b3d6-fabf4ff02fa9)](https://www.youtube.com/watch?v=tTb7bpY6oPw)
 
 
-
-## Technologies Used
-### Frontend:
-- React.js for the user interface
-- Web Speech API for Text-to-Speech functionality
-- Lip Sync API for avatar synchronization
-### Backend:
-- Node.js and Express.js for API management
-- MongoDB for database management (user profiles, lesson progress)
-### AI:
-- TensorFlow.js for AI Tutor learning capabilities
-- OpenAI's GPT-3 for lesson creation and interactive dialogues
-### Translation:
-- Google Translate API for real-time translation of lesson content
-
-## Getting Started
-To run the EarthWise web application locally, follow these steps:
-
-### Prerequisites
-- Node.js (v14.x or later)
-- MongoDB (locally or via a cloud service like MongoDB Atlas)
-- NPM (Node Package Manager)
-### Installation
-Clone the repository:
-
-```bash
-git clone https://github.com/meenakshiiyer2531/earthwise.git
-cd earthwise
-```
-Install dependencies:
-
-```bash
-npm install
-```
-Set up your MongoDB:
-
-If using MongoDB Atlas, ensure you have your MongoDB URI ready.
-If using a local MongoDB instance, ensure MongoDB is running locally.
-Start the application:
-
-```bash
-npm start
-```
-Visit the app at http://localhost:3000.
-
-## AI Tutor Interaction
-The AI Tutor provides lessons on the 17 SDGs. Each lesson is interactive, with voice feedback and virtual lip sync for an immersive experience.
-Users can ask questions during lessons, and the AI Tutor responds intelligently using GPT-3.
-
-
-Note : All codes of this project present in private repository.
