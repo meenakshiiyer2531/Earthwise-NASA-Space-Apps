@@ -8,11 +8,13 @@ At the heart of EarthWise lies its AI Tutor, an intelligent and engaging virtual
 
 **1. AI-Powered Tutor**
 
-Leverages OpenAI's GPT-3 to deliver personalized, engaging lessons on the 17 SDGs, responding intelligently to user queries and simulating dynamic interactions.
+The platform leverages OpenAI's GPT-3 to deliver personalized, interactive lessons on the 17 SDGs, responding intelligently to user queries and simulating dynamic interactions within an AR/VR environment.
 
-Incorporates ElevenLabs API for natural and human-like Text-to-Speech output, enhancing auditory engagement.
+It integrates the ElevenLabs API for natural, human-like Text-to-Speech output, enhancing auditory engagement and creating a more immersive experience.
 
-Rhubarb Lip Sync technology is integrated to synchronize lip movements with spoken words, providing an immersive and visually interactive experience with the virtual tutor.
+Rhubarb Lip Sync technology is used to synchronize lip movements with spoken words, ensuring a lifelike and visually interactive experience with the virtual tutor.
+
+*Unreal Engine* is incorporated to power the AR/VR model, enabling realistic, immersive simulations that bring the AI tutor to life in a fully interactive 3D environment.
 
 **2. Text Translation**
 
